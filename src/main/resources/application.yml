@@ -1,1 +1,8 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+
+discord:
+  bot-token: ${BOT_TOKEN}
+  application-id: ${APPLICATION_ID}
 
